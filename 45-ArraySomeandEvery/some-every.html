@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+    
+        var ages = [100,19,18,20];
+        document.write(ages + "<br><br>");
+
+        /*var b = ages.some(checkAdult);//some function return true and false
+         document.write(b + "<br><br>");
+
+         function checkAdult(age){
+            return age>=18;//true koi bhi 1 value 18  k equal ya bari ho to
+
+
+         }*/
+        var b = ages.every(checkAdult);//every function return true if all values greater and equal
+         document.write(b + "<br><br>");
+
+         function checkAdult(age){
+            return age>=18;
+         }
+    
+       
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
