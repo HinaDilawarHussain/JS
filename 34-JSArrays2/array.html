@@ -3,8 +3,15 @@
     <head>
         <title>JavaScript</title>
         <script>
-            var array=[10,"Hina","Saba",true,null];
-            var sum=0;
+        var array=new Array(3);
+       /* array[0]=10;
+        array[1]="Hina";
+        array[3]=true;*/
+
+        for(var g=0;g<3;g++){
+            array[g]=prompt("Enter the value: ");
+        }
+           
 
             document.write("<ul>");
             for(var a = 0;a<=4;a++){
